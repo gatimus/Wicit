@@ -29,7 +29,7 @@ dependencies {
     /*
      *  GSon
      */
-    compile 'com.google.code.gson:gson:1.7.2'
+    compile 'com.google.code.gson:gson:2.3'
     /*
      *  Retrofit
      */
