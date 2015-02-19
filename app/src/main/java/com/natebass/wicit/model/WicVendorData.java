@@ -3,7 +3,7 @@ package com.natebass.wicit.model;
 import java.util.HashMap;
 import java.util.Map;
 
-public class WicLocationData {
+public class WicVendorData {
     private String zipCode;
     private Location location;
     private String county;

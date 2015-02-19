@@ -1,6 +1,6 @@
 package com.natebass.wicit.api;
 
-import com.natebass.wicit.model.WicLocationData;
+import com.natebass.wicit.model.WicVendorData;
 
 import java.util.List;
 
@@ -28,6 +28,6 @@ public class LocationApiClient {
     public interface LocationApiInterface {
         @GET("/resource/i7wi-ei4m.json")
         // todo: pass params as
-        void getLocations(@Query("within_box")  Callback<List<WicLocationData>> callback);
+        void getLocations(@Query("within_box")  Callback<List<WicVendorData>> callback);
     }
 }

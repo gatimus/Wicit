@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">Wicit</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+  <string name="app_name">Wicit</string>
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+  <string-array name="drawer_menu_titles">
+    <item>Who Accepts WIC?</item>
+    <item>Do I Qualify?</item>
+    <item>What is WIC?</item>
+  </string-array>
 </resources>

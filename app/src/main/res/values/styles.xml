@@ -1,8 +1,19 @@
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-    </style>
-
+  <!-- the theme applied to the application or activity -->
+  <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+    <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
+    <item name="android:windowActionBarOverlay">true</item>
+    <!-- Support library compatibility -->
+    <!--<item name="actionBarStyle">@style/MyActionBar</item>-->
+    <item name="windowActionBarOverlay">true</item>
+  </style>
+<!--
+  &lt;!&ndash; ActionBar styles &ndash;&gt;
+  <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:logo">@drawable/ic_launcher</item>
+    &lt;!&ndash; Support library compatibility &ndash;&gt;
+    <item name="background">@android:color/transparent</item>
+    <item name="logo">@drawable/ic_launcher</item>
+  </style>-->
 </resources>
